@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF1C5F781B54618500972D02 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1C5F771B54618500972D02 /* ViewController.m */; };
+		BF1C5F811B5467B800972D02 /* MKOVideoMerge.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1C5F801B5467B800972D02 /* MKOVideoMerge.m */; };
+		BF1C5FA01B559C5B00972D02 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1C5F9F1B559C5B00972D02 /* AVKit.framework */; };
+		BF707EA51B52F14900A2F038 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF707EA41B52F14900A2F038 /* main.m */; };
+		BF707EA81B52F14900A2F038 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF707EA71B52F14900A2F038 /* AppDelegate.m */; };
+		BF707EAE1B52F14900A2F038 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF707EAC1B52F14900A2F038 /* Main.storyboard */; };
+		BF707EB01B52F14900A2F038 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF707EAF1B52F14900A2F038 /* Images.xcassets */; };
+		BF707EB31B52F14900A2F038 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF707EB11B52F14900A2F038 /* LaunchScreen.xib */; };
+		BF707ECC1B52F1BC00A2F038 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF707ECB1B52F1BC00A2F038 /* AVFoundation.framework */; };
+		BFB4CF731B55A29C00374C92 /* sample.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BFB4CF711B55A29C00374C92 /* sample.mp4 */; };
+		BFB4CF741B55A29C00374C92 /* Source.txt in Resources */ = {isa = PBXBuildFile; fileRef = BFB4CF721B55A29C00374C92 /* Source.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BF1C5F771B54618500972D02 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BF1C5F7F1B5467B800972D02 /* MKOVideoMerge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKOVideoMerge.h; sourceTree = "<group>"; };
+		BF1C5F801B5467B800972D02 /* MKOVideoMerge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKOVideoMerge.m; sourceTree = "<group>"; };
+		BF1C5F9F1B559C5B00972D02 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		BF707E9F1B52F14900A2F038 /* MKOVideoMergeSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MKOVideoMergeSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF707EA31B52F14900A2F038 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF707EA41B52F14900A2F038 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF707EA71B52F14900A2F038 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BF707EA91B52F14900A2F038 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BF707EAD1B52F14900A2F038 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF707EAF1B52F14900A2F038 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BF707EB21B52F14900A2F038 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BF707ECB1B52F1BC00A2F038 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		BFB4CF711B55A29C00374C92 /* sample.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = sample.mp4; sourceTree = "<group>"; };
+		BFB4CF721B55A29C00374C92 /* Source.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Source.txt; sourceTree = "<group>"; };
+		BFB4CF751B55A30500374C92 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF707E9C1B52F14900A2F038 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF1C5FA01B559C5B00972D02 /* AVKit.framework in Frameworks */,
+				BF707ECC1B52F1BC00A2F038 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF1C5F7E1B5467B800972D02 /* MKOVideoMerge */ = {
+			isa = PBXGroup;
+			children = (
+				BF1C5F7F1B5467B800972D02 /* MKOVideoMerge.h */,
+				BF1C5F801B5467B800972D02 /* MKOVideoMerge.m */,
+			);
+			name = MKOVideoMerge;
+			path = ../MKOVideoMerge;
+			sourceTree = SOURCE_ROOT;
+		};
+		BF707E961B52F14900A2F038 = {
+			isa = PBXGroup;
+			children = (
+				BF707EA11B52F14900A2F038 /* MKOVideoMergeSample */,
+				BF707ECD1B52F1CD00A2F038 /* Frameworks */,
+				BF707EA01B52F14900A2F038 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF707EA01B52F14900A2F038 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF707E9F1B52F14900A2F038 /* MKOVideoMergeSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF707EA11B52F14900A2F038 /* MKOVideoMergeSample */ = {
+			isa = PBXGroup;
+			children = (
+				BF1C5F7E1B5467B800972D02 /* MKOVideoMerge */,
+				BFB4CF701B55A29C00374C92 /* Resources */,
+				BFB4CF751B55A30500374C92 /* AppDelegate.h */,
+				BF707EA71B52F14900A2F038 /* AppDelegate.m */,
+				BF707EA91B52F14900A2F038 /* ViewController.h */,
+				BF1C5F771B54618500972D02 /* ViewController.m */,
+				BF707EA21B52F14900A2F038 /* Supporting Files */,
+			);
+			path = MKOVideoMergeSample;
+			sourceTree = "<group>";
+		};
+		BF707EA21B52F14900A2F038 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF707EAF1B52F14900A2F038 /* Images.xcassets */,
+				BF707EAC1B52F14900A2F038 /* Main.storyboard */,
+				BF707EB11B52F14900A2F038 /* LaunchScreen.xib */,
+				BF707EA31B52F14900A2F038 /* Info.plist */,
+				BF707EA41B52F14900A2F038 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF707ECD1B52F1CD00A2F038 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF1C5F9F1B559C5B00972D02 /* AVKit.framework */,
+				BF707ECB1B52F1BC00A2F038 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFB4CF701B55A29C00374C92 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BFB4CF711B55A29C00374C92 /* sample.mp4 */,
+				BFB4CF721B55A29C00374C92 /* Source.txt */,
+			);
+			name = Resources;
+			path = ../../Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF707E9E1B52F14900A2F038 /* MKOVideoMergeSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF707EC21B52F14A00A2F038 /* Build configuration list for PBXNativeTarget "MKOVideoMergeSample" */;
+			buildPhases = (
+				BF707E9B1B52F14900A2F038 /* Sources */,
+				BF707E9C1B52F14900A2F038 /* Frameworks */,
+				BF707E9D1B52F14900A2F038 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MKOVideoMergeSample;
+			productName = VideoMergeDemo;
+			productReference = BF707E9F1B52F14900A2F038 /* MKOVideoMergeSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF707E971B52F14900A2F038 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Mathias Koehnke";
+				TargetAttributes = {
+					BF707E9E1B52F14900A2F038 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = BF707E9A1B52F14900A2F038 /* Build configuration list for PBXProject "MKOVideoMergeSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF707E961B52F14900A2F038;
+			productRefGroup = BF707EA01B52F14900A2F038 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF707E9E1B52F14900A2F038 /* MKOVideoMergeSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF707E9D1B52F14900A2F038 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF707EAE1B52F14900A2F038 /* Main.storyboard in Resources */,
+				BF707EB31B52F14900A2F038 /* LaunchScreen.xib in Resources */,
+				BF707EB01B52F14900A2F038 /* Images.xcassets in Resources */,
+				BFB4CF741B55A29C00374C92 /* Source.txt in Resources */,
+				BFB4CF731B55A29C00374C92 /* sample.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF707E9B1B52F14900A2F038 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF707EA81B52F14900A2F038 /* AppDelegate.m in Sources */,
+				BF1C5F811B5467B800972D02 /* MKOVideoMerge.m in Sources */,
+				BF707EA51B52F14900A2F038 /* main.m in Sources */,
+				BF1C5F781B54618500972D02 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BF707EAC1B52F14900A2F038 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF707EAD1B52F14900A2F038 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF707EB11B52F14900A2F038 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF707EB21B52F14900A2F038 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF707EC01B52F14A00A2F038 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BF707EC11B52F14A00A2F038 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF707EC31B52F14A00A2F038 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MKOVideoMergeSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.mathiaskoehnke.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = MKOVideoMergeSample;
+			};
+			name = Debug;
+		};
+		BF707EC41B52F14A00A2F038 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MKOVideoMergeSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.mathiaskoehnke.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = MKOVideoMergeSample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF707E9A1B52F14900A2F038 /* Build configuration list for PBXProject "MKOVideoMergeSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF707EC01B52F14A00A2F038 /* Debug */,
+				BF707EC11B52F14A00A2F038 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF707EC21B52F14A00A2F038 /* Build configuration list for PBXNativeTarget "MKOVideoMergeSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF707EC31B52F14A00A2F038 /* Debug */,
+				BF707EC41B52F14A00A2F038 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF707E971B52F14900A2F038 /* Project object */;
+}
