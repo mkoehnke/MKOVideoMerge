@@ -95,7 +95,7 @@
         mutableVideoComposition.renderSize = size;
         exportSession.videoComposition = mutableVideoComposition;
         
-        NSLog(@"Composition Duration: %ld seconds", lroundf(CMTimeGetSeconds(composition.duration)));
+        NSLog(@"Composition Duration: %ld seconds", lround(CMTimeGetSeconds(composition.duration)));
         NSLog(@"Composition Framerate: %d fps", highestFrameRate);
         
         void(^exportCompletion)(void) = ^{
